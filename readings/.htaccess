@@ -1,0 +1,4 @@
+AuthName "CS160 Readings"
+AuthType Basic
+AuthUserFile /home/vasavage/.htpasswd
+require valid-user
