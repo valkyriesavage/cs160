@@ -5,13 +5,13 @@ body {
 }
 
 a {
-  color: #f50;
+  color: #800;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #f50;
+  color: #800;
   text-decoration: underline;
 }
 
@@ -61,6 +61,7 @@ a:focus {
 
 #tabs > .active {
   color: #f50;
+  font-weight: bold;
 }
 
 #contact {
@@ -105,6 +106,13 @@ a:focus {
 .big {
   font-family: 'Sansita One', cursive;
   font-size: 25.1919;
+  padding-top:10px;
+  padding-bottom:5px;
+}
+
+.project {
+  font-family: 'Sansita One', cursive;
+  font-size: 19;
   padding-top:10px;
   padding-bottom:5px;
 }
